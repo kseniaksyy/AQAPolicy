@@ -19,5 +19,3 @@ console.log('Найстарша книга:' + oldest.printInfo());
 
 const ebookFromBook = EBook.fromBook(book3, 'MOBI');
 console.log(ebookFromBook.printInfo());
-
-let abc = 'Kseniia';
