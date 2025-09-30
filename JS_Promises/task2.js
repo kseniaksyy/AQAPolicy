@@ -3,7 +3,7 @@ function fetchTodo() {
     (response) => {
       if (!response.ok) throw new Error("Failed to fetch todo");
       return response.json();
-    }
+    },
   );
 }
 
@@ -12,7 +12,7 @@ function fetchUser() {
     (response) => {
       if (!response.ok) throw new Error("Failed to fetch user");
       return response.json();
-    }
+    },
   );
 }
 

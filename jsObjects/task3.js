@@ -1,15 +1,15 @@
 const car1 = {
-    brand: "Toyota",
-    model: "Camry",
-    year: "2021"
-}
+  brand: "Toyota",
+  model: "Camry",
+  year: "2021",
+};
 
 const car2 = {
-    brand: "Ford",
-    model: "Fusion",
-    owner: "Me"
-}
+  brand: "Ford",
+  model: "Fusion",
+  owner: "Me",
+};
 
-const car3 = {...car1, ...car2}
+const car3 = { ...car1, ...car2 };
 
 console.log(car3);
