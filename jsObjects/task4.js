@@ -1,9 +1,9 @@
 const person = {
-  firstName: "Kseniia",
-  lastName: "Orliuk",
-  age: 26,
+	firstName: 'Kseniia',
+	lastName: 'Orliuk',
+	age: 26,
 };
-person.email = "kseniaksyyy@gmail.com";
+person.email = 'kseniaksyyy@gmail.com';
 
 delete person.age;
 
